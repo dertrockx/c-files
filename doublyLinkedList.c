@@ -100,5 +100,6 @@ int main() {
 	printLinkedList(head);
 	append( &head, 6);
 	printLinkedList(head);
+	free(head);
 	return 0;
 }
